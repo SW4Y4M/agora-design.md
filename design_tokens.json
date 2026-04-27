@@ -1,0 +1,91 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/1.0/schema.json",
+  "name": "Agora Design System",
+  "colors": {
+    "brand": {
+      "cyan": { "value": "#00C2FF" },
+      "blue": { "value": "#075C9A" },
+      "cyan-light": { "value": "#A0FAFF" },
+      "violet": { "value": "#C46FFB" },
+      "violet-dark": { "value": "#9443C7" }
+    },
+    "neutral": {
+      "950": { "value": "#0F0F0F" },
+      "900": { "value": "#171717" },
+      "800": { "value": "#2C2C2C" },
+      "700": { "value": "#484848" },
+      "600": { "value": "#626262" },
+      "400": { "value": "#B3B3B3" },
+      "300": { "value": "#D6D6D6" },
+      "200": { "value": "#E7E6E6" },
+      "100": { "value": "#F1F0F0" },
+      "50": { "value": "#FCF9F8" }
+    },
+    "semantic": {
+      "light": {
+        "background": { "value": "#FDFBFC" },
+        "foreground": { "value": "#0A0A0A" },
+        "card": { "value": "#FFFFFF" },
+        "primary": { "value": "#00658D" },
+        "primary-foreground": { "value": "#FDFBFC" },
+        "muted": { "value": "#F8F3F1" },
+        "muted-foreground": { "value": "#757575" },
+        "border": { "value": "#E7E6E6" },
+        "success": { "value": "#308D2C" },
+        "destructive": { "value": "#E7000B" },
+        "warning": { "value": "#F59E0B" },
+        "sidebar": { "value": "#FDFBFC" },
+        "sidebar-border": { "value": "#E7E6E6" }
+      },
+      "dark": {
+        "background": { "value": "#000000" },
+        "foreground": { "value": "#FDFCFB" },
+        "card": { "value": "#0A0A0A" },
+        "primary": { "value": "#00C2FF" },
+        "primary-foreground": { "value": "#171717" },
+        "muted": { "value": "#212121" },
+        "muted-foreground": { "value": "#B3B3B3" },
+        "border": { "value": "#383838" },
+        "success": { "value": "#42B03D" },
+        "destructive": { "value": "#DC383E" },
+        "warning": { "value": "#F59E0B" },
+        "sidebar": { "value": "#171717" },
+        "sidebar-border": { "value": "#212121" }
+      }
+    },
+    "status": {
+      "warning": { "value": "#DCA311" },
+      "error": { "value": "#DE344A" },
+      "success": { "value": "#42B03D" }
+    },
+    "chart": {
+      "1": { "value": "#F6339A" },
+      "2": { "value": "#FF6900" },
+      "3": { "value": "#00A6F4" },
+      "4": { "value": "#8E51FF" },
+      "5": { "value": "#00BC7D" }
+    }
+  },
+  "typography": {
+    "fonts": {
+      "brand": { "value": "Jokker" },
+      "sans": { "value": "Instrument Sans" },
+      "mono": { "value": "Space Mono" }
+    }
+  },
+  "rounded": {
+    "sm": { "value": "0.125rem" },
+    "DEFAULT": { "value": "0.25rem" },
+    "md": { "value": "0.375rem" },
+    "lg": { "value": "0.5rem" },
+    "xl": { "value": "0.75rem" },
+    "full": { "value": "9999px" }
+  },
+  "spacing": {
+    "unit": { "value": "4px" },
+    "container-max": { "value": "1200px" },
+    "gutter": { "value": "24px" },
+    "margin-mobile": { "value": "16px" },
+    "margin-desktop": { "value": "64px" }
+  }
+}
